@@ -1,0 +1,27 @@
+{
+    "name": "forest/boolean_parser",
+    "description": "a boolean expression parser",
+    "version" : "1.0.0",
+    "keywords": [
+        "expression",
+        "parser",
+        "boolean"
+    ],
+    "homepage": "https://github.com/forest2087/boolean_parser",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Forest Wang",
+            "email": "forest2087@gmail.com",
+            "homepage": "https://github.com/forest2087"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "forest\\boolean_parser\\": "src"
+        }
+    }
+}
